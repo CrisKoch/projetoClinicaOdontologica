@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" th:replace="fragments/footer:: rodape">
 <head>
 <meta charset="UTF-8">
 <title>Cadastro Usuario</title>
@@ -33,11 +33,17 @@ function cadastrarUser(){
     
 }
 </script>        
+<style>
+img {
+	background-color: red;
+	text-align: center;
+	border: 2px bold red;}
+</style>
 </head>
 <body class="container">
     <div class="rounded-pill">
-        <img src="imagens/cc.png" class="icone"></img> 
-        <h1>cliniCControl</h1>
+        <img src="img/dente.jpg" class="icone"></img> 
+        <h1>CliniCControl</h1>
         <main><form>
             <h2>Cadastre-se</h2>
             <label for="">Usuário: </label>
@@ -55,5 +61,6 @@ function cadastrarUser(){
         
         </main>
     </div>
+    <footer ></footer>
 </body>
 </html>
