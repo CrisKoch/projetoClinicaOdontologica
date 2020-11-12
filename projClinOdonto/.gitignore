@@ -31,9 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-<<<<<<< HEAD
-
-.settings/
-bin/
-=======
->>>>>>> 52691c5eaed30406493fec4b5cc13a9ca54fff3e
